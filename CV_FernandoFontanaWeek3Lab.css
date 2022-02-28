@@ -1,0 +1,46 @@
+div{
+    background-color: rgb(57, 32, 145);
+
+}  
+body{
+	background-color:#333;
+	color:#7bff00;
+	font-family:'Courier New', monospace;	
+	text-align:center;
+}
+.sections{
+	text-shadow: 2px 2px #ff0000;
+}
+.headname{
+	text-shadow: 2px 2px #4c00ff;
+}
+.email{
+	color: crimson;
+	text-decoration-line: underline;
+	font-style: italic;
+}
+.listskills{
+	list-style-type: square;
+}
+@media(min-width:768px) {
+	.divcontainer{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.divcontainer{
+		border: 1px #ccc solid;
+		padding: 10px;
+		margin: 1px;
+		align-self: center;
+		flex-basis: 27%;
+	}
+}
+.divedu{
+	flex:2;	
+}
+.divexp{
+	flex:2;
+}
+.divskills{
+	flex:2;
+}
